@@ -79,9 +79,14 @@ body {
   bottom: -1.7em;
   position: absolute;
   width: 100%;
-
   text-align: center;
 }
+
+.chart__item:hover .chart__label {
+  color: #fff;
+}
+
+
 
 .chart__bar-wrap {
   bottom: 0;
@@ -100,7 +105,7 @@ body {
   transition: background-color 200ms linear;
 }
 
-.chart__bar:hover {
+.chart__item:hover .chart__bar {
   background-color: rgba(127, 219, 255, 0.9);
 }
 
